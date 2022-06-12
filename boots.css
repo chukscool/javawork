@@ -1,0 +1,14 @@
+.container{ 
+    background-color: greenyellow
+}
+[class*="col"]{
+    background-color: lightskyblue;
+    border: 1px solid black;
+}
+.mar{
+    margin-top: 200px !important;
+}
+.container
+img{
+    
+}

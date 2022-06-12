@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: #592600;
+    min-height: 70px;
+    color: #ffffff;
+    border-bottom:  3px solid orangered;
+    
+
+}
+
+#logo image{
+    width:  130px;
+    height: 80px;
+    float: left;
+    padding: 20px;
+}
+
+header li{
+    display: inline;
+    padding: 20px;
+    float: left;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    float: right;
+}
+header li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+header li a :hover{
+    color: blue;
+}
+header .current{
+    border-bottom: 3px solid red;
+}
+i{
+    color: rgb(88, 177, 233);
+}
+
